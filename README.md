@@ -116,7 +116,7 @@ display(stops)
 
 * Run ros core:
 ```CMake
-roscore
+roscore &
 ```
 * Create a workspace:
 ```CMake
@@ -137,6 +137,13 @@ catkin_make
 * Launch the project:
 ```CMake
 roslaunch assignment_2_2022 assignment1.launch
+```
 
+* Launch a scpecific node:
+```CMake
+roslaunch assignment_2_2022 <node_name>.py
+```
+* Launch Jupyter Notebook: 
+To launch Jupyter Notebook just click on __Run All__ to run all the cells of the notebook.
 
 
