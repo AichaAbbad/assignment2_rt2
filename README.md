@@ -56,3 +56,48 @@ from std_srvs.srv import Empty,EmptyResponse
 
 from buttons import *
 ```
+---------------------------
+
+# 2. Classes
+* Visualiser() : This class is responsible for handling the visualization of a robot's position, orientation, and sensor data.
+* Goals() : This class is responsible for tracking and visualizing the progress of goals being reached or cancelled.
+* Distance() : computes the distance between the current position and a desired position, and stores the computed distance in an instance variable.
+
+---------------------------
+
+# 3. Required Functions
+* start_simulation" : This function is called when the "start" button is clicked.
+* "stop_simulation" : This function is called when the "stop" button is clicked.
+* "move_forward" : This function is called when the "up" button is clicked. 
+* "move_backward" : This function is called when the "down" button is clicked.
+* "turn_left" : This function is called when the "left" button is clicked.
+* "turn_right" : This function is called when the "right" button is clicked.
+* "stop_movement" : This function is called when the "stops" button is clicked. 
+* "button_event" : This function sets up the event handling for the buttons. It assigns the appropriate functions to the on_click events of each button.
+* The main() function is then defined, which serves as the entry point for the program. It initializes a ROS node, sets up ROS subscribers and publishers, creates and animates plots using matplotlib, and defines callback functions for handling received data.
+
+---------------------------
+
+# 4. Controlling robot motion using buttons
+
+In this part we try to control the motion of the robot (Up, Down, Left, Right, Stop) using widget buttons.
+
+1. Robot "start" or "stop" simulation:
+```Python
+HBox([start,stop])
+```
+
+2. Robot moves "up" or "down":
+```Python
+HBox([up,down])
+```
+
+3. Robot moves "left" or "right":
+```Python
+HBox([left,right])
+```
+
+3. Robot "stop":
+```Python
+display(stops)
+```
