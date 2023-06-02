@@ -89,18 +89,23 @@ HBox([start,stop])
 
 ![](https://github.com/AichaAbbad/assignment2_rt2/blob/a891c140672ce9b9c00eba9cc82ca6bbb664ea87/Screenshot%20from%202023-06-02%2017-46-12.png)
 
-
 2. Robot moves __"up"__ or __"down"__:
 ```Python
 HBox([up,down])
 ```
+![](https://github.com/AichaAbbad/assignment2_rt2/blob/2f56c60d3c9b2bd98c8155ddc0363497fd90652b/Screenshot%20from%202023-06-02%2017-47-26.png)
+![](https://github.com/AichaAbbad/assignment2_rt2/blob/2f56c60d3c9b2bd98c8155ddc0363497fd90652b/Screenshot%20from%202023-06-02%2017-48-18.png)
 
 3. Robot moves __"left"__ or __"right"__:
 ```Python
 HBox([left,right])
 ```
+![](https://github.com/AichaAbbad/assignment2_rt2/blob/2f56c60d3c9b2bd98c8155ddc0363497fd90652b/Screenshot%20from%202023-06-02%2017-47-48.png)
 
 3. Robot __"stop"__:
 ```Python
 display(stops)
 ```
+
+![](https://github.com/AichaAbbad/assignment2_rt2/blob/2f56c60d3c9b2bd98c8155ddc0363497fd90652b/Screenshot%20from%202023-06-02%2017-48-32.png)
+
