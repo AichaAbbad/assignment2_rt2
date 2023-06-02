@@ -1,0 +1,2 @@
+assignment_2:assignment_2_2022/src/assignment_2_2022
+-DCATKIN_DEVEL_PREFIX=/root/assignment_2_RT2/devel -DCMAKE_INSTALL_PREFIX=/root/assignment_2_RT2/install -G Unix Makefiles

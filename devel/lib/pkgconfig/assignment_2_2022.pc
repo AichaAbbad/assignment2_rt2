@@ -1,0 +1,8 @@
+prefix=/root/assignment_2_RT2/devel
+
+Name: assignment_2_2022
+Description: Description of assignment_2_2022
+Version: 0.0.0
+Cflags: -I/root/assignment_2_RT2/devel/include
+Libs: -L${prefix}/lib 
+Requires: 
