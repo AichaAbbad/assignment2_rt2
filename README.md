@@ -100,6 +100,16 @@ HBox([up,down])
 ```Python
 HBox([left,right])
 ```
+
+![](https://github.com/AichaAbbad/assignment2_rt2/blob/2f56c60d3c9b2bd98c8155ddc0363497fd90652b/Screenshot%20from%202023-06-02%2017-47-48.png)
+
+3. Robot __"stop"__:
+```Python
+display(stops)
+```
+
+![](https://github.com/AichaAbbad/assignment2_rt2/blob/2f56c60d3c9b2bd98c8155ddc0363497fd90652b/Screenshot%20from%202023-06-02%2017-48-32.png)
+```
 --------------------------
 
 # Installation and Running
@@ -126,13 +136,6 @@ catkin_make
 * Launch the project:
 ```CMake
 roslaunch assignment_2_2022 assignment1.launch
-```
-![](https://github.com/AichaAbbad/assignment2_rt2/blob/2f56c60d3c9b2bd98c8155ddc0363497fd90652b/Screenshot%20from%202023-06-02%2017-47-48.png)
 
-3. Robot __"stop"__:
-```Python
-display(stops)
-```
 
-![](https://github.com/AichaAbbad/assignment2_rt2/blob/2f56c60d3c9b2bd98c8155ddc0363497fd90652b/Screenshot%20from%202023-06-02%2017-48-32.png)
 
