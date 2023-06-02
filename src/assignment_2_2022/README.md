@@ -1,4 +1,4 @@
-# Research Track Assignment 2
+# Research Track 01 | Assignment 2
 
 The main goal of this assignment is to implement a ROS package in which we develop 3 nodes:
 * Node A : This node implements an action client that allows the user to set a target goal or cancel it. The node also publishes and velocity as a costum message, which includes the values for (x, y, x_vel, y_vel) based the values published in "/odom" topic.
