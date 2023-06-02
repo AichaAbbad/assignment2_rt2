@@ -87,7 +87,7 @@ In this part we try to control the motion of the robot (Up, Down, Left, Right, S
 HBox([start,stop])
 ```
 
-!(https://github.com/AichaAbbad/assignment2_rt2/blob/a891c140672ce9b9c00eba9cc82ca6bbb664ea87/Screenshot%20from%202023-06-02%2017-46-12.png)
+![](https://github.com/AichaAbbad/assignment2_rt2/blob/a891c140672ce9b9c00eba9cc82ca6bbb664ea87/Screenshot%20from%202023-06-02%2017-46-12.png)
 
 
 2. Robot moves __"up"__ or __"down"__:
